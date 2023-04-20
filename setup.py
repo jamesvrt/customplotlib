@@ -29,5 +29,6 @@ setuptools.setup(
         'seaborn',
     ],
     packages=setuptools.find_packages(include='customplotlib.*'),
-    zip_safe=False
+    zip_safe=False,
+    include_package_data=True,
 )
