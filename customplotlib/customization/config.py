@@ -62,7 +62,7 @@ SUPPS['strong-dark-red'] = '#9F0023'
 GRADIENT_LIGHT_DARK = ['strong-off-white', 'strong-light-blue', 'strong-blue', 'strong-dark-blue'] 
 GRADIENT_HOT_COLD = ['strong-dark-red', 'strong-red', 'strong-off-white','strong-light-blue', 'strong-blue', 'strong-dark-blue']
 GRADIENT_RAINBOW = ['strong-dark-red', 'strong-red', 'strong-orange', 'strong-yellow', 'strong-green', 'strong-blue', 'strong-dark-blue']
-GRADIENT_BW = ['strong-off-white', '#D0D0D0', '#808080', 'strong-dark-gray', 'strong-off-black']
+GRADIENT_BW = ['strong-off-white', 'strong-dark-gray', 'strong-off-black']
 
 GRADIENTS = {'strong': GRADIENT_LIGHT_DARK, 
             'hot_cold': GRADIENT_HOT_COLD,
