@@ -36,7 +36,7 @@ def format_str(string):
 
 
 class Customplotlib:
-    def __init__(self, supp_colors=False, color_blind_mode=False):
+    def __init__(self, supp_colors=False, color_blind_mode=False, autosave=False):
         for i in dir(pyplot):
             if i not in ["scatter", "plot", "matshow"]:
                 setattr(self, i, getattr(pyplot, i))
@@ -60,7 +60,7 @@ class Customplotlib:
         self.gradients = GRADIENTS
         self.markersize = MARKERSIZE
         self.figsize = FIGSIZE
-        self.autosave = AUTOSAVE
+        self.autosave = autosave
         self.savepath = FIGSAVEPATH
         self.legend_loc = LEGEND_LOC
 
