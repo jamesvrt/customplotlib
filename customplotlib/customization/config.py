@@ -19,7 +19,6 @@ import os
 ### basics
 FIGSIZE = (10,6)
 FIGSAVEPATH = '../saved_figs/'
-AUTOSAVE = True
 
 
 ### font
